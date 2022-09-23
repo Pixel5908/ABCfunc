@@ -1,1 +1,11 @@
-
+import math
+Astr = input("What is A?")
+Bstr = input("What is B?")
+Cstr = input("What is C?")
+A = float(Astr)
+B = float(Bstr)
+C = float(Cstr)
+D = (B*B-4*A*C)
+print("D = ", D)
+D2 = math.sqrt(D)
+print((0-B+D2)/(A*2), " and ", (0-B+D2)/(A*2))
